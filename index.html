@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Hero - Free Bulma template</title>
+        <link rel="shortcut icon" href="../images/fav_icon.png" type="image/x-icon">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <!-- Bulma Version 0.9.0-->
+        <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.0/css/bulma.min.css" />
+        <link rel="stylesheet" type="text/css" href="hero.css">
+        <link rel="stylesheet" href="https://unpkg.com/bulma-modal-fx/dist/css/modal-fx.min.css" />
+        <script>
+            var acc = document.getElementsByClassName("accordion");
+            var i;
+            
+            for (i = 0; i < acc.length; i++) {
+              acc[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.maxHeight) {
+                  panel.style.maxHeight = null;
+                } else {
+                  panel.style.maxHeight = panel.scrollHeight + "px";
+                }
+              });
+            }
+        </script>
+    </head>
+    <body>
+        <section class="hero is-info is-medium is-bold">
+            <div class="hero-head">
+                <nav class="navbar">
+                    <div class="container">
+                        <div class="navbar-brand">
+                            <a class="navbar-item" href="../">
+                                <img src="logo1_landscape.jpeg" alt="Logo">
+                            </a>
+                            <span class="navbar-burger burger" data-target="navbarMenu">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </span>
+                        </div>
+                        <div id="navbarMenu" class="navbar-menu">
+                            <div class="navbar-end">
+                                <div class="tabs is-right">
+                                    <a href="javascript:void(0)" class="togglecstm">
+                    <div>
+                        <span class="round"></span>
+                        <span class="round"></span>
+                        <span class="round"></span>
+                    </div>
+                </a>
+                <div class="menu ">
+                    <a href="javascript:void(0);" class="cross">
+                        <i class="fas fa-times"></i>
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="#community">
+                                Our community
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#cstsponser">
+                                Work with us
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#faq">
+                                Frequently Asked Questions
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#contact">
+                                Contact Us
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                                    <span class="navbar-item">
+                                        <a class="button is-white is-outlined" href="https://github.com/BulmaTemplates/bulma-templates/blob/master/templates/hero.html">
+                                            <span class="icon">
+                                                <i class="fa fa-github"></i>
+                                            </span>
+                                            <span title="Hello from the other side">View Source</span>
+                                        </a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="hero-body">
+                <div class="container has-text-centered">
+                    <h1 class="title is-2">
+                    Want accessible tech education for everyone?
+                    </h1>
+                    <h2 class="subtitle">
+                    BridgeTheGapSG is a ground-up initiative to make tech education accessible to low-income families. Join us to build a world where youths are empowered to pursue tech regardless of their roots.
+                    </h2>
+                </div>
+            </div>
+        </section>
+        <div class="box cta">
+            <p class="has-text-centered">
+                Interested? Get involved as a 
+                <a href="../" class="tag is-primary is-bold">Mentor</a> or sign up to be a <a href="../" class="tag is-primary is-bold">Student</a> 
+            </p>
+        </div>
+        <section class="container">
+            <div class="columns features">
+                <div class="column is-4">
+                    <div class="card is-shady">
+                        <div class="card-image has-text-centered">
+                            <i class="fa fa-exclamation-circle"></i>
+                        </div>
+                        <div class="card-content">
+                            <div class="content">
+                                <h4>The Problem</h4>
+                                <p>In a world where digital transformation is the norm, programming will build the future of the world we live in today. However, not 
+                                    all students have equal opportunity to quality tech education.<br><br>BridgeTheGap wants to solve that.
+                                </p>
+                                <p><a href="#">Find out more. (link to problem statement)</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column is-4">
+                    <div class="card is-shady">
+                        <div class="card-image has-text-centered">
+                            <i class="fa fa-solid fa-bullseye"></i>
+                        </div>
+                        <div class="card-content">
+                            <div class="content">
+                                <h4>Our mission </h4>
+                                <p>To be the bridge that allows disadvantaged youths to have access to tech education and to inspire them to explore tech as a possible career path.</p>
+                                <p><a href="#">Learn more</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="column is-4">
+                    <div class="card is-shady">
+                        <div class="card-image has-text-centered">
+                            <i class="fa fa-wrench"></i>
+                        </div>
+                        <div class="card-content">
+                            <div class="content">
+                                <h4> Our work</h4>
+                                <p>We pairs students with mentors on a 1-1 basis. Over the course of 3 months (12 weeks), mentors give an hour each week to meet with their mentee. </p>
+                                <p><a href="#">Find out more.</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="intro column is-8 is-offset-2">
+                <h2 class="title">FAQ</h2><br>
+                <p class="subtitle"></p>
+            </div>
+            <div class="sandbox">
+                <section>
+                    <!--<div class="dropdown is-active">
+                        <div class="dropdown-trigger">
+                            <button class="button" aria-haspopup="true" aria-controls="dropdown-menu2">
+                                <span>
+                                    Who can sign up for this programme as a student?
+                                </span>
+                                <span class="icon is-small"><i class="fa fa-angle-down" aria-hidden="true"></i></span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="dropdown-menu" id="dropdown-menu2" role="menu">
+                        <div class="dropdown-content">
+                            <div class="dropdown-item">
+                                <p>Students from low-income families aged 10-16 who perform well in school and are interested in tech.</p>
+                            </div>
+                        </div>
+                    </div>-->
+                    <button class="accordion">Section 1</button>
+                    <div class="panel">
+                      <p>Lorem ipsum aosdubfwsofubwsoufbweofubwefubweof</p>
+                    </div>
+                    
+                    <button class="accordion">Section 2</button>
+                    <div class="panel">
+                      <p>Lorem ipsum...</p>
+                    </div>
+                    
+                    <button class="accordion">Section 3</button>
+                    <div class="panel">
+                      <p>Lorem ipsum...</p>
+                    </div> 
+                </section>
+                <!--<section class="section has-background-light is-clipped">
+                    <div class="container">
+                    <h2 class="title mb-16">FAQs</h2>
+                    <div class="mb-4 py-4 pr-10 has-background-white">
+                        <div class="columns">
+                        <div class="column is-narrow">
+                            <div style="height: 100%; width: 1px; border-left: 2px solid #3665F3;"></div>
+                        </div>
+                        <div class="column is-narrow py-6 pl-8 pl-16-tablet pl-28-desktop is-align-self-center">
+                            <h2 class="title is-5 mb-0">Sed eget accumsan ipsum. Praesent dignissim?</h2>
+                            <p class="is-hidden mt-8 has-mw-2xl has-text-grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod orci sed tristique placerat. Fusce in ligula urna. Fusce eget nunc et libero accumsan rutrum quis nec lectus. Quisque luctus sem nibh, quis ornare neque consectetur varius. Maecenas rhoncus consectetur rutrum.</p>
+                        </div>
+                        <div class="column ml-auto is-narrow">
+                            <button class="button is-ghost">
+                            <svg width="18" height="10" viewbox="0 0 18 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M16.0185 0.201172C16.2905 -0.0668276 16.7275 -0.0668276 16.9975 0.201172C17.2675 0.469172 17.2685 0.902172 16.9975 1.17017L9.0895 9.00017C8.8195 9.26817 8.3825 9.26817 8.1105 9.00017L0.2025 1.17017C-0.0674999 0.902172 -0.0674999 0.469172 0.2025 0.201172C0.4735 -0.0668278 0.9115 -0.0668278 1.1815 0.201172L8.6005 7.34217L16.0185 0.201172Z" fill="#1F40FF"></path>
+                            </svg>
+                            </button>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="mb-4 py-4 pr-10 has-background-white">
+                        <div class="columns">
+                        <div class="column is-narrow">
+                            <div style="height: 100%; width: 1px; border-left: 2px solid #3665F3;"></div>
+                        </div>
+                        <div class="column is-narrow py-6 pl-8 pl-16-tablet pl-28-desktop is-align-self-center">
+                            <h2 class="title is-5 has-text-info mb-0">After curabitur eu laoreet libero eget en vel odio?</h2>
+                            <p class="mt-8 has-mw-2xl has-text-grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod orci sed tristique placerat. Fusce in ligula urna. Fusce eget nunc et libero accumsan rutrum quis nec lectus. Quisque luctus sem nibh, quis ornare neque consectetur varius. Maecenas rhoncus consectetur rutrum.</p>
+                        </div>
+                        <div class="column ml-auto is-narrow">
+                            <button class="button is-ghost">
+                            <svg width="18" height="10" viewbox="0 0 18 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1.18072 9C0.90872 9.268 0.471719 9.268 0.201719 9C-0.0682816 8.732 -0.069281 8.299 0.201719 8.031L8.10972 0.201C8.37972 -0.0670004 8.81672 -0.0670004 9.08872 0.201L16.9967 8.031C17.2667 8.299 17.2667 8.732 16.9967 9C16.7257 9.268 16.2877 9.268 16.0177 9L8.59872 1.859L1.18072 9Z" fill="#1F40FF"></path>
+                            </svg>
+                            </button>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="mb-4 py-4 pr-10 has-background-white">
+                        <div class="columns">
+                        <div class="column is-narrow">
+                            <div style="height: 100%; width: 1px; border-left: 2px solid #3665F3;"></div>
+                        </div>
+                        <div class="column is-narrow py-6 pl-8 pl-16-tablet pl-28-desktop is-align-self-center">
+                            <h2 class="title is-5 mb-0">A eget euismod dignissim, felis tortor mollis ultricies turpis eget leo?</h2>
+                            <p class="is-hidden mt-8 has-mw-2xl has-text-grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod orci sed tristique placerat. Fusce in ligula urna. Fusce eget nunc et libero accumsan rutrum quis nec lectus. Quisque luctus sem nibh, quis ornare neque consectetur varius. Maecenas rhoncus consectetur rutrum.</p>
+                        </div>
+                        <div class="column ml-auto is-narrow">
+                            <button class="button is-ghost">
+                            <svg width="18" height="10" viewbox="0 0 18 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M16.0185 0.201172C16.2905 -0.0668276 16.7275 -0.0668276 16.9975 0.201172C17.2675 0.469172 17.2685 0.902172 16.9975 1.17017L9.0895 9.00017C8.8195 9.26817 8.3825 9.26817 8.1105 9.00017L0.2025 1.17017C-0.0674999 0.902172 -0.0674999 0.469172 0.2025 0.201172C0.4735 -0.0668278 0.9115 -0.0668278 1.1815 0.201172L8.6005 7.34217L16.0185 0.201172Z" fill="#1F40FF"></path>
+                            </svg>
+                            </button>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="mb-4 py-4 pr-10 has-background-white">
+                        <div class="columns">
+                        <div class="column is-narrow">
+                            <div style="height: 100%; width: 1px; border-left: 2px solid #3665F3;"></div>
+                        </div>
+                        <div class="column is-narrow py-6 pl-8 pl-16-tablet pl-28-desktop is-align-self-center">
+                            <h2 class="title is-5 mb-0">Curabitur elementum eu metus ut consequat?</h2>
+                            <p class="is-hidden mt-8 has-mw-2xl has-text-grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod orci sed tristique placerat. Fusce in ligula urna. Fusce eget nunc et libero accumsan rutrum quis nec lectus. Quisque luctus sem nibh, quis ornare neque consectetur varius. Maecenas rhoncus consectetur rutrum.</p>
+                        </div>
+                        <div class="column ml-auto is-narrow">
+                            <button class="button is-ghost">
+                            <svg width="18" height="10" viewbox="0 0 18 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M16.0185 0.201172C16.2905 -0.0668276 16.7275 -0.0668276 16.9975 0.201172C17.2675 0.469172 17.2685 0.902172 16.9975 1.17017L9.0895 9.00017C8.8195 9.26817 8.3825 9.26817 8.1105 9.00017L0.2025 1.17017C-0.0674999 0.902172 -0.0674999 0.469172 0.2025 0.201172C0.4735 -0.0668278 0.9115 -0.0668278 1.1815 0.201172L8.6005 7.34217L16.0185 0.201172Z" fill="#1F40FF"></path>
+                            </svg>
+                            </button>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="mt-20 has-text-centered"><a class="button is-info" href="#">More</a></div>
+                    </div>
+                </section>
+            -->
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="container">
+                <div class="columns">
+                    <div class="column is-3 is-offset-2">
+                        <h2><strong>Category</strong></h2>
+                        <ul>
+                            <li><a href="#">Lorem ipsum dolor sit amet</a></li>
+                            <li><a href="#">Vestibulum errato isse</a></li>
+                            <li><a href="#">Lorem ipsum dolor sit amet</a></li>
+                            <li><a href="#">Aisia caisia</a></li>
+                            <li><a href="#">Murphy's law</a></li>
+                            <li><a href="#">Flimsy Lavenrock</a></li>
+                            <li><a href="#">Maven Mousie Lavender</a></li>
+                        </ul>
+                    </div>
+                    <div class="column is-3">
+                        <h2><strong>Category</strong></h2>
+                        <ul>
+                            <li><a href="#">Labore et dolore magna aliqua</a></li>
+                            <li><a href="#">Kanban airis sum eschelor</a></li>
+                            <li><a href="#">Modular modern free</a></li>
+                            <li><a href="#">The king of clubs</a></li>
+                            <li><a href="#">The Discovery Dissipation</a></li>
+                            <li><a href="#">Course Correction</a></li>
+                            <li><a href="#">Better Angels</a></li>
+                        </ul>
+                    </div>
+                    <div class="column is-4">
+                        <h2><strong>Category</strong></h2>
+                        <ul>
+                            <li><a href="#">Objects in space</a></li>
+                            <li><a href="#">Playing cards with coyote</a></li>
+                            <li><a href="#">Goodbye Yellow Brick Road</a></li>
+                            <li><a href="#">The Garden of Forking Paths</a></li>
+                            <li><a href="#">Future Shock</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="content has-text-centered">
+                    <p>
+                        <a class="icon" href="https://github.com/BulmaTemplates/bulma-templates">
+                            <i class="fa fa-github"></i>
+                        </a>
+                    </p>
+                    <div class="control level-item">
+                        <a href="https://github.com/BulmaTemplates/bulma-templates">
+                            <div class="tags has-addons">
+                                <span class="tag is-dark">Bulma Templates</span>
+                                <span class="tag is-info">MIT license</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!--<script src="../js/bulma.js"></script>-->
+            
+        </footer>
+    </body>
+</html>
