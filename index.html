@@ -1,51 +1,72 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Hero - Free Bulma template</title>
-        <link rel="shortcut icon" href="../images/fav_icon.png" type="image/x-icon">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-        <!-- Bulma Version 0.9.0-->
-        <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.0/css/bulma.min.css" />
-        <link rel="stylesheet" type="text/css" href="hero.css">
-        <link rel="stylesheet" href="https://unpkg.com/bulma-modal-fx/dist/css/modal-fx.min.css" />
-        
-    </head>
-    <body>
-        <section class="hero is-info is-medium is-bold">
-            <div class="hero-head">
-                <nav class="navbar">
-                    <div class="container">
-                        <div class="navbar-brand">
-                            <a class="navbar-item" href="../">
-                                <img src="logo1_landscape.jpeg" alt="Logo">
-                            </a>
-                            <span class="navbar-burger burger" data-target="navbarMenu">
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                            </span>
-                        </div>
-                        <div id="navbarMenu" class="navbar-menu">
-                            <div class="navbar-end">
-                                <div class="tabs is-right">
-                                    <a href="javascript:void(0)" class="togglecstm">
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <meta name="title" content="UKSSS - A community for STEM students from Singapore, in the UK.">
+    <meta name="description" content="Welcome! The United Kingdom Singapore STEM Society (UKSSS) is a vibrant and nurturing community for STEM students from Singapore, in the United Kingdom, to learn and grow together.">
+    <link rel="canonical" href="https://UKSSS.com">
+    <meta property="og:title" content="UKSSS - A community for STEM students from Singapore, in the UK." />
+    <meta property="og:description " content="Welcome! The United Kingdom Singapore STEM Society (UKSSS) is a vibrant and nurturing community for STEM students from Singapore, in the United Kingdom, to learn and grow together." />
+    <meta property="og:image" content="https://UKSSS.com/images/UKSSS_LOGO.jpg" />
+    <meta property="og:url" content="http://UKSSS.com">
+    <meta property="og:site_name" content="United Kingdom Singapore STEM Society">
+    <meta property="og:locale" content="en_US">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@joachimmmy">
+    <meta name="twitter:creator" content="@joachimmmy">
+    <meta name="twitter:title" content="UKSSS - A community for STEM students from Singapore, in the UK.">
+    <meta name="twitter:description" content="Welcome! The United Kingdom Singapore STEM Society (UKSSS) is a vibrant and nurturing community for STEM students from Singapore, in the United Kingdom, to learn and grow together.">
+    <meta name="twitter:image" content="https://UKSSS.com/images/logo_png.png">
+    <meta name="twitter:image:alt" content="United Kingdom Singapore STEM Society">
+    <script type="application/ld+json">
+      {"@context":"http://schema.org","@type":"Website","name":"UKSSS","headline":"UKSSS","author":{"@type":"Person","name":"UKSSS"},"description":"United Kingdom Singapore STEM Society","url":"https://UKSSS.com/"}
+    </script>
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bad+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/component.css">
+    <link rel="stylesheet" href="css/carousel.css">
+    <script src="js/modernizr.custom.js"></script>
+    <title>
+        UKSSS - A community for STEM students from Singapore, in the UK.
+    </title>
+    <link rel="icon" href="images/UKSSS_LOGO_No_BG.png" type="image/x-icon" >
+</head>
+
+<body>
+    <!--header starts here-->
+    <header>
+        <div class="top-head">
+            <div class="container">
+                <a href="javascript:void(0);">
+                    <figure>
+                        <img src="images/logo-transparent-gif.gif" alt="" />
+                    </figure>
+                </a>
+                <a href="javascript:void(0)" class="togglecstm">
                     <div>
                         <span class="round"></span>
                         <span class="round"></span>
                         <span class="round"></span>
                     </div>
                 </a>
-                <div class="menu ">
+                <div class="menu">
                     <a href="javascript:void(0);" class="cross">
                         <i class="fas fa-times"></i>
                     </a>
                     <ul>
                         <li>
-                            <a href="#community">
+                            <a href="#carousel">
                                 Our community
                             </a>
                         </li>
@@ -66,280 +87,354 @@
                         </li>
                     </ul>
                 </div>
-                                    <span class="navbar-item">
-                                        <a class="button is-white is-outlined" href="https://github.com/BulmaTemplates/bulma-templates/blob/master/templates/hero.html">
-                                            <span class="icon">
-                                                <i class="fa fa-github"></i>
-                                            </span>
-                                            <span title="Hello from the other side">View Source</span>
-                                        </a>
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </nav>
             </div>
-
-            <div class="hero-body">
-                <div class="container has-text-centered">
-                    <h1 class="title is-2">
-                    Want accessible tech education for everyone?
-                    </h1>
-                    <h2 class="subtitle">
-                    BridgeTheGapSG is a ground-up initiative to make tech education accessible to low-income families. Join us to build a world where youths are empowered to pursue tech regardless of their roots.
-                    </h2>
-                </div>
-            </div>
-        </section>
-        <div class="box cta">
-            <p class="has-text-centered">
-                Interested? Get involved as a 
-                <a href="../" class="tag is-primary is-bold">Mentor</a> or sign up to be a <a href="../" class="tag is-primary is-bold">Student</a> 
-            </p>
         </div>
-        <section class="container">
-            <div class="columns features">
-                <div class="column is-4">
-                    <div class="card is-shady">
-                        <div class="card-image has-text-centered">
-                            <i class="fa fa-exclamation-circle"></i>
-                        </div>
-                        <div class="card-content">
-                            <div class="content">
-                                <h4>The Problem</h4>
-                                <p>In a world where digital transformation is the norm, programming will build the future of the world we live in today. However, not 
-                                    all students have equal opportunity to quality tech education.<br><br>BridgeTheGap wants to solve that.
-                                </p>
-                                <p><a href="#">Find out more. (link to problem statement)</a></p>
-                            </div>
+    </header>
+    <!--header ends here-->
+
+    <!--Banner starts here-->
+    <section class="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-xs-12">
+                    <div class="banner-text">
+                        <h3>Are you looking for</h3>
+                        <h4>Community in the UK?</h4>
+                        <p>
+                            Welcome! The United Kingdom Singapore STEM Society (UKSSS) is a vibrant and nurturing community for STEM students from Singapore, in the United Kingdom, to learn and grow together.
+                        </p>
+                        <a href="https://forms.gle/R4qwsPmiDHUNAjEM6" target="_blank" class="cstm-btn">
+                            Sign up now
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Banner ends here-->
+
+    <!--Rotation Bar Starts here-->
+    <section class="sectioncarou testimonials is-medium has-text-centered" id="carousel">
+        <div class="containercarou">
+          <h1 class="title is-spaced is-size-3-desktop is-size-4-mobile">Testimonials</h1>
+          <h2 class="subtitle is-size-5-desktop">People I've worked with have said some nice things...</h2>
+          <div class="columns is-centered">
+            <div class="column is-two-thirds">
+              <div class="testimonials-slider">                     
+                <input id="carousel-1" type="radio" name="carousel" checked="">
+                <input id="carousel-2" type="radio" name="carousel">
+                <input id="carousel-3" type="radio" name="carousel">
+                <div class="carousel-slides">
+                  <div class="carousel-inner">
+                    <div class="carousel-item">
+                      <div class="testimonial-block"><img class="avatar" src="images/Darryl_photo.png" alt="Jason Ke">
+                        <p class="quote">“Joachim is a fast, keen and independent learner who takes up new challenges with enthusiasm. His desire to learn and openness to feedback is a strength that will serve him well now and in time to come”</p>
+                        <h1 class="title is-size-5">Jason Ke</h1>
+                        <h2 class="subtitle is-size-6">Reliability Engineer, Shell</h2>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="testimonial-block"><img class="avatar" src="images/Joachim_photo.jpg" alt="Shaun Goh">
+                        <p class="quote">“Joachim possesses both the hard and soft skills needed to achieve results and establish wonderful networks and connections with others. His positive attitude and ability to adapt and bounce back from setbacks makes all the difference in projects!”</p>
+                        <h1 class="title is-size-5">Shaun Goh</h1>
+                        <h2 class="subtitle is-size-6">Co-Founder; Principal Consultant, Level Up Consulting</h2>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-nav">
+                  <label for="carousel-1"></label>
+                  <label for="carousel-2"></label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <!--Rotation Bar Ends here-->
+
+    <!--sponser section starts here-->
+    <section class="sponser" id="cstsponser">
+        <div class="container">
+            <div class="head aos-init aos-animate" data-aos="fade-down" data-aos-duration="1500">
+                <h3>Work With Us</h3>
+                <p>Interested in being a Partner or Sponsor?</p>
+                <a href="https://forms.gle/kDny5KUPmrqXjR1DA" target="_blank">
+                    Contact us today!
+                </a>
+            </div>
+            <ul class="aos-init aos-animate" data-aos="fade-down" data-aos-duration="1500">
+                <li>
+                    <figure>
+                        <img src="images/Watch-Gif.gif" alt="" />
+                    </figure>
+                    <p>Partner us for our events!</p>
+                </li>
+                <li>
+                    <figure>
+                        <img src="images/Bro-Gif.gif" alt="" />
+                    </figure>
+                    <p>Join us as a sponsor to create an impact!</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!--sponser section ends here-->
+
+
+
+    <!--FAQ section starts here-->
+    <section class="cst-faq" id="faq">
+        <div class="container">
+            <div class="head aos-init aos-animate" data-aos="fade-down" data-aos-duration="1500">
+                <h3>Frequently Asked Questions</h3>
+            </div>
+            <!--Accordian Section starts here-->
+            <div class="panel-group aos-init aos-animate" data-aos="fade-down" data-aos-duration="1500" id="accordion" role="tablist" aria-multiselectable="true">
+
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingOne">
+                        <h4 class="panel-title">
+                            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="" aria-controls="collapseOne">
+                                <i class="more-less glyphicon glyphicon-plus"></i>
+                                What can I get out of joining UKSSS?
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                        <div class="panel-body">
+                            <p>A Community of Like-Minded Individuals, Mentorship Opportunities & Career Opportunities!</p>
                         </div>
                     </div>
                 </div>
 
-                <div class="column is-4">
-                    <div class="card is-shady">
-                        <div class="card-image has-text-centered">
-                            <i class="fa fa-solid fa-bullseye"></i>
-                        </div>
-                        <div class="card-content">
-                            <div class="content">
-                                <h4>Our mission </h4>
-                                <p>To be the bridge that allows disadvantaged youths to have access to tech education and to inspire them to explore tech as a possible career path.</p>
-                                <p><a href="#">Learn more</a></p>
-                            </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingTwo">
+                        <h4 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                <i class="more-less glyphicon glyphicon-plus"></i>
+                                When does the new cycle begin?
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                        <div class="panel-body">
+                            <p>The new cycle for 2022 begins with an introductory Welcome session on xxxx, xxth month. You may sign up on our site or contact us at uksgstem.1@gmail.com for more details.</p>
                         </div>
                     </div>
                 </div>
-        
-                <div class="column is-4">
-                    <div class="card is-shady">
-                        <div class="card-image has-text-centered">
-                            <i class="fa fa-wrench"></i>
-                        </div>
-                        <div class="card-content">
-                            <div class="content">
-                                <h4> Our work</h4>
-                                <p>We pairs students with mentors on a 1-1 basis. Over the course of 3 months (12 weeks), mentors give an hour each week to meet with their mentee. </p>
-                                <p><a href="#">Find out more.</a></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
 
-            <div class="intro column is-8 is-offset-2">
-                <h2 class="title">FAQ</h2><br>
-                <p class="subtitle"></p>
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingThree">
+                        <h4 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+                                <i class="more-less glyphicon glyphicon-plus"></i>
+                                what is the commitment like?
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapsefour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingfour">
+                        <div class="panel-body">
+                            <p>There is no commitment!</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingfive">
+                        <h4 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapsefive" aria-expanded="false" aria-controls="collapsefive">
+                                <i class="more-less glyphicon glyphicon-plus"></i>
+                                Do I have to pay to be part of UKSSS?
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapsefive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingfive">
+                        <div class="panel-body">
+                            <p>No, UKSSS is free to attend. Additional activities such as retreats are also heavily subsidized and the UKSSS team aims to ensure that cost is never an issue. </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingsix">
+                        <h4 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapsesix" aria-expanded="false" aria-controls="collapsesix">
+                                <i class="more-less glyphicon glyphicon-plus"></i>
+                                What is a Mentor?
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapsesix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingsix">
+                        <div class="panel-body">
+                            <p>A Mentor is a working adult who will guide you on your career journey. He/She is someone who will give you appropriate career advice & guidance.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingnine">
+                        <h4 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapsenine" aria-expanded="false" aria-controls="collapsenine">
+                                <i class="more-less glyphicon glyphicon-plus"></i>
+                                Can I join UKSSS after the cycle has started?
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapsenine" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingnine">
+                        <div class="panel-body">
+                            <p>You may join us at any time of the year! </p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="sandbox">
-                <section>
-                    <!--<div class="dropdown is-active">
-                        <div class="dropdown-trigger">
-                            <button class="button" aria-haspopup="true" aria-controls="dropdown-menu2">
-                                <span>
-                                    Who can sign up for this programme as a student?
-                                </span>
-                                <span class="icon is-small"><i class="fa fa-angle-down" aria-hidden="true"></i></span>
-                            </button>
-                        </div>
-                    </div>
-                    <div class="dropdown-menu" id="dropdown-menu2" role="menu">
-                        <div class="dropdown-content">
-                            <div class="dropdown-item">
-                                <p>Students from low-income families aged 10-16 who perform well in school and are interested in tech.</p>
-                            </div>
-                        </div>
-                    </div>-->
-                    <button class="accordion">Section 1</button>
-                    <div class="panel">
-                      <p>Lorem ipsum aosdubfwsofubwsoufbweofubwefubweof</p>
-                    </div>
-                    
-                    <button class="accordion">Section 2</button>
-                    <div class="panel">
-                      <p>Lorem ipsum...</p>
-                    </div>
-                    
-                    <button class="accordion">Section 3</button>
-                    <div class="panel">
-                      <p>Lorem ipsum...</p>
-                    </div> 
-                </section>
-                <!--<section class="section has-background-light is-clipped">
-                    <div class="container">
-                    <h2 class="title mb-16">FAQs</h2>
-                    <div class="mb-4 py-4 pr-10 has-background-white">
-                        <div class="columns">
-                        <div class="column is-narrow">
-                            <div style="height: 100%; width: 1px; border-left: 2px solid #3665F3;"></div>
-                        </div>
-                        <div class="column is-narrow py-6 pl-8 pl-16-tablet pl-28-desktop is-align-self-center">
-                            <h2 class="title is-5 mb-0">Sed eget accumsan ipsum. Praesent dignissim?</h2>
-                            <p class="is-hidden mt-8 has-mw-2xl has-text-grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod orci sed tristique placerat. Fusce in ligula urna. Fusce eget nunc et libero accumsan rutrum quis nec lectus. Quisque luctus sem nibh, quis ornare neque consectetur varius. Maecenas rhoncus consectetur rutrum.</p>
-                        </div>
-                        <div class="column ml-auto is-narrow">
-                            <button class="button is-ghost">
-                            <svg width="18" height="10" viewbox="0 0 18 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M16.0185 0.201172C16.2905 -0.0668276 16.7275 -0.0668276 16.9975 0.201172C17.2675 0.469172 17.2685 0.902172 16.9975 1.17017L9.0895 9.00017C8.8195 9.26817 8.3825 9.26817 8.1105 9.00017L0.2025 1.17017C-0.0674999 0.902172 -0.0674999 0.469172 0.2025 0.201172C0.4735 -0.0668278 0.9115 -0.0668278 1.1815 0.201172L8.6005 7.34217L16.0185 0.201172Z" fill="#1F40FF"></path>
-                            </svg>
-                            </button>
-                        </div>
-                        </div>
-                    </div>
-                    <div class="mb-4 py-4 pr-10 has-background-white">
-                        <div class="columns">
-                        <div class="column is-narrow">
-                            <div style="height: 100%; width: 1px; border-left: 2px solid #3665F3;"></div>
-                        </div>
-                        <div class="column is-narrow py-6 pl-8 pl-16-tablet pl-28-desktop is-align-self-center">
-                            <h2 class="title is-5 has-text-info mb-0">After curabitur eu laoreet libero eget en vel odio?</h2>
-                            <p class="mt-8 has-mw-2xl has-text-grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod orci sed tristique placerat. Fusce in ligula urna. Fusce eget nunc et libero accumsan rutrum quis nec lectus. Quisque luctus sem nibh, quis ornare neque consectetur varius. Maecenas rhoncus consectetur rutrum.</p>
-                        </div>
-                        <div class="column ml-auto is-narrow">
-                            <button class="button is-ghost">
-                            <svg width="18" height="10" viewbox="0 0 18 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M1.18072 9C0.90872 9.268 0.471719 9.268 0.201719 9C-0.0682816 8.732 -0.069281 8.299 0.201719 8.031L8.10972 0.201C8.37972 -0.0670004 8.81672 -0.0670004 9.08872 0.201L16.9967 8.031C17.2667 8.299 17.2667 8.732 16.9967 9C16.7257 9.268 16.2877 9.268 16.0177 9L8.59872 1.859L1.18072 9Z" fill="#1F40FF"></path>
-                            </svg>
-                            </button>
-                        </div>
-                        </div>
-                    </div>
-                    <div class="mb-4 py-4 pr-10 has-background-white">
-                        <div class="columns">
-                        <div class="column is-narrow">
-                            <div style="height: 100%; width: 1px; border-left: 2px solid #3665F3;"></div>
-                        </div>
-                        <div class="column is-narrow py-6 pl-8 pl-16-tablet pl-28-desktop is-align-self-center">
-                            <h2 class="title is-5 mb-0">A eget euismod dignissim, felis tortor mollis ultricies turpis eget leo?</h2>
-                            <p class="is-hidden mt-8 has-mw-2xl has-text-grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod orci sed tristique placerat. Fusce in ligula urna. Fusce eget nunc et libero accumsan rutrum quis nec lectus. Quisque luctus sem nibh, quis ornare neque consectetur varius. Maecenas rhoncus consectetur rutrum.</p>
-                        </div>
-                        <div class="column ml-auto is-narrow">
-                            <button class="button is-ghost">
-                            <svg width="18" height="10" viewbox="0 0 18 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M16.0185 0.201172C16.2905 -0.0668276 16.7275 -0.0668276 16.9975 0.201172C17.2675 0.469172 17.2685 0.902172 16.9975 1.17017L9.0895 9.00017C8.8195 9.26817 8.3825 9.26817 8.1105 9.00017L0.2025 1.17017C-0.0674999 0.902172 -0.0674999 0.469172 0.2025 0.201172C0.4735 -0.0668278 0.9115 -0.0668278 1.1815 0.201172L8.6005 7.34217L16.0185 0.201172Z" fill="#1F40FF"></path>
-                            </svg>
-                            </button>
-                        </div>
-                        </div>
-                    </div>
-                    <div class="mb-4 py-4 pr-10 has-background-white">
-                        <div class="columns">
-                        <div class="column is-narrow">
-                            <div style="height: 100%; width: 1px; border-left: 2px solid #3665F3;"></div>
-                        </div>
-                        <div class="column is-narrow py-6 pl-8 pl-16-tablet pl-28-desktop is-align-self-center">
-                            <h2 class="title is-5 mb-0">Curabitur elementum eu metus ut consequat?</h2>
-                            <p class="is-hidden mt-8 has-mw-2xl has-text-grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod orci sed tristique placerat. Fusce in ligula urna. Fusce eget nunc et libero accumsan rutrum quis nec lectus. Quisque luctus sem nibh, quis ornare neque consectetur varius. Maecenas rhoncus consectetur rutrum.</p>
-                        </div>
-                        <div class="column ml-auto is-narrow">
-                            <button class="button is-ghost">
-                            <svg width="18" height="10" viewbox="0 0 18 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M16.0185 0.201172C16.2905 -0.0668276 16.7275 -0.0668276 16.9975 0.201172C17.2675 0.469172 17.2685 0.902172 16.9975 1.17017L9.0895 9.00017C8.8195 9.26817 8.3825 9.26817 8.1105 9.00017L0.2025 1.17017C-0.0674999 0.902172 -0.0674999 0.469172 0.2025 0.201172C0.4735 -0.0668278 0.9115 -0.0668278 1.1815 0.201172L8.6005 7.34217L16.0185 0.201172Z" fill="#1F40FF"></path>
-                            </svg>
-                            </button>
-                        </div>
-                        </div>
-                    </div>
-                    <div class="mt-20 has-text-centered"><a class="button is-info" href="#">More</a></div>
-                    </div>
-                </section>
-            -->
+        </div>
+    </section>
+    <!--FAQ section ends here-->
+
+    <!--contact us section starts here-->
+    <section class="cst-contact" id="contact">
+        <div class="container">
+            <div class="head aos-init aos-animate" data-aos="fade-down" data-aos-duration="1500">
+                <h3>Contact Us</h3>
+                <p>Interested to find out more?</p>
+                <p>Sign up today and we'll be in touch soon</p>
             </div>
-        </section>
-        <footer class="footer">
+            <div class="btn-wrap aos-init aos-animate" data-aos="fade-down" data-aos-duration="1500">
+                <a href="https://forms.gle/R4qwsPmiDHUNAjEM6" target="_blank" class="cstm-btn">
+                    Sign Up Now
+                </a>
+            </div>
+        </div>
+    </section>
+    <!--contact us section ends here-->
+
+    <footer>
+        <div class="foot">
+            <div class="container aos-init aos-animate" data-aos="fade-down" data-aos-duration="1500">
+                <a href="javascript:void(0);" class="footlogo">
+                    <figure>
+                        <img src="images/logo-transparent-gif.gif" alt="">
+                    </figure>
+                </a>
+                <div class="row">
+                    <div class="col-sm-4">
+
+                        <ul class="tele">
+                            <li>
+                                <a href="tel:82283419">
+                                    <span><i class="fas fa-phone"></i></span>
+                                    Angela +44 07842810051 / +65 93882886 <br> Gabriel +65 12345678
+                                </a>
+                            </li>
+                            <li>
+                                <a href="mailto:uksgstem.1@gmail.com">
+                                    <span>
+                                        <i class="fas fa-envelope"></i>
+                                    </span>
+                                    uksgstem.1@gmail.com
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <ul class="address">
+                            <li>
+                                <a href="javascript:void(0);">
+                                    <span><i class="fas fa-map-marker-alt"></i></span>
+                                    United Kingdom Singapore STEM Society<br>
+                                    United Kingdom, United Kingdom
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-sm-offset-1 col-sm-3">
+                        <h3>Follow us</h3>
+                        <ul class="icons">
+                            <li>
+                                <a href="https://facebook.com/uksgstemsoc/" target="_blank">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href=" https://instagram.com/uksgstemsoc" target="_blank">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://t.me/uksgstemsoc" target="_blank">
+                                    <i class="fab fa-telegram" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+            <figure>
+                <img src="images/blue_banner.png" alt="" />
+            </figure>
             <div class="container">
-                <div class="columns">
-                    <div class="column is-3 is-offset-2">
-                        <h2><strong>Category</strong></h2>
-                        <ul>
-                            <li><a href="#">Lorem ipsum dolor sit amet</a></li>
-                            <li><a href="#">Vestibulum errato isse</a></li>
-                            <li><a href="#">Lorem ipsum dolor sit amet</a></li>
-                            <li><a href="#">Aisia caisia</a></li>
-                            <li><a href="#">Murphy's law</a></li>
-                            <li><a href="#">Flimsy Lavenrock</a></li>
-                            <li><a href="#">Maven Mousie Lavender</a></li>
-                        </ul>
-                    </div>
-                    <div class="column is-3">
-                        <h2><strong>Category</strong></h2>
-                        <ul>
-                            <li><a href="#">Labore et dolore magna aliqua</a></li>
-                            <li><a href="#">Kanban airis sum eschelor</a></li>
-                            <li><a href="#">Modular modern free</a></li>
-                            <li><a href="#">The king of clubs</a></li>
-                            <li><a href="#">The Discovery Dissipation</a></li>
-                            <li><a href="#">Course Correction</a></li>
-                            <li><a href="#">Better Angels</a></li>
-                        </ul>
-                    </div>
-                    <div class="column is-4">
-                        <h2><strong>Category</strong></h2>
-                        <ul>
-                            <li><a href="#">Objects in space</a></li>
-                            <li><a href="#">Playing cards with coyote</a></li>
-                            <li><a href="#">Goodbye Yellow Brick Road</a></li>
-                            <li><a href="#">The Garden of Forking Paths</a></li>
-                            <li><a href="#">Future Shock</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="content has-text-centered">
-                    <p>
-                        <a class="icon" href="https://github.com/BulmaTemplates/bulma-templates">
-                            <i class="fa fa-github"></i>
-                        </a>
-                    </p>
-                    <div class="control level-item">
-                        <a href="https://github.com/BulmaTemplates/bulma-templates">
-                            <div class="tags has-addons">
-                                <span class="tag is-dark">Bulma Templates</span>
-                                <span class="tag is-info">MIT license</span>
-                            </div>
-                        </a>
-                    </div>
+                <div class="copy">
+                    <p>© United Kingdom Singapore STEM Society. All rights reserved.</p>
+                    <p>Made with <i class="fas fa-heart"></i></p>
                 </div>
             </div>
-            
-            <!--<script src="../js/bulma.js"></script>-->
-            
-        </footer>
-        <script>
-            var acc = document.getElementsByClassName("accordion");
-            var i;
-            
-            for (i = 0; i < acc.length; i++) {
-              acc[i].addEventListener("click", function() {
-                this.classList.toggle("active");
-                var panel = this.nextElementSibling;
-                if (panel.style.maxHeight) {
-                  panel.style.maxHeight = null;
-                } else {
-                  panel.style.maxHeight = panel.scrollHeight + "px";
-                }
-              });
-            }
-        </script>
-    </body>
+        </div>
+    </footer>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="animation-lottie/lottie.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="js/morphext.min.js"></script>
+    <script src="js/bootstrap-tabcollapse.js"></script>
+    <script src="js/masonry.pkgd.min.js"></script>
+    <script src="js/imagesloaded.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/AnimOnScroll.js"></script>
+
+    <script>
+        function toggleIcon(e) {
+            $(e.target)
+                .prev('.panel-heading')
+                .find(".more-less")
+                .toggleClass('glyphicon-plus glyphicon-minus');
+        }
+        $('.panel-group').on('hidden.bs.collapse', toggleIcon);
+        $('.panel-group').on('shown.bs.collapse', toggleIcon);
+
+    </script>
+    <script>
+        AOS.init();
+
+    </script>
+    <script>
+        $("a.togglecstm").click(function() {
+            $(".menu").addClass("show-menu");
+            $("body").addClass("overlay");
+        });
+        $("a.cross").click(function() {
+            $(".menu").removeClass("show-menu");
+            $("body").removeClass("overlay");
+        });
+        $(".menu ul li a").click(function() {
+            $("body").removeClass("overlay");
+            $(".menu").removeClass("show-menu");
+        });
+
+    </script>
+    <script>
+        new AnimOnScroll(document.getElementById('grid'), {
+            minDuration: 0.4,
+            maxDuration: 0.6,
+            viewportFactor: 0.2
+        });
+
+    </script>
+</body>
+
 </html>
