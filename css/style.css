@@ -474,9 +474,9 @@ body.overlay:before {
 /*Header ends here*/
 /*Banner starts here*/
 .banner {
-    background: url(../images/banner.png)no-repeat;
-    background-position: center center;
-    background-size: cover;
+    background: url(../images/banner_background.png)no-repeat;
+    background-position: /*zoomed in: -1950px center -1550px top*/ center center;
+    background-size: /*zoomed in: 250%*/cover;
     padding: 230px 0 310px;
     position: relative
 }
@@ -584,14 +584,15 @@ body.overlay:before {
 
 .banner h4 {
     font-family: 'Gilroy-ExtraBold';
-    font-size: 36px;
+    font-size: 40px;
     color: #fff;
     line-height: 60px;
 }
 
 .banner p {
-    font-size: 16px;
+    font-size: 20px;
     line-height: 30px;
+    text-align: justify;
     color: #fff;
     margin-bottom: 45px;
 }
@@ -603,9 +604,9 @@ body.overlay:before {
 
 /*Banner ends here*/
 .cstm-btn {
-    background: rgb(76, 175, 80);
-    border: 2px solid rgb(76, 175, 80);
-    color: #fff;
+    background: #85fff4;
+    border: 2px solid #85fff4;
+    color: #011261;
     font-size: 16px;
     line-height: 30px;
     text-transform: uppercase;
@@ -950,7 +951,7 @@ p.bold {
 
 .sponser {
     padding: 90px 0;
-    background: #f2f2f2;
+    background: #85fff4;
 }
 
 .sponser .head {
