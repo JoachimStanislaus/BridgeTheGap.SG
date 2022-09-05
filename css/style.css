@@ -12,7 +12,7 @@ body {
     margin: 0;
     overflow-x: hidden;
     padding: 0;
-        background: #6640d1 !important;
+        background: #4ba8ce !important;
 }
 
 html,
@@ -438,7 +438,7 @@ header .top-head a.togglecstm:hover span {
 }
 
 .menu ul li a:hover {
-    color: rgba(255, 255, 255, 0.8)
+    color: #000000;
 }
 
 .top-head {
@@ -617,22 +617,26 @@ body.overlay:before {
 }
 
 .cstm-btn:hover {
-    background: #0b0c5d;
+    background: #3e7396;
     color: #fff;
-    border-color: #0b0c5d
+    border-color: #3e7396;
 }
 
 .head p {
     font-size: 16px;
-    color: #333
+    color: #ffffff;
 }
 
 .head h3 {
     text-align: center;
-    color: #011261;
+    color: #ffffff;
     font-size: 48px;
     line-height: 60px;
     font-family: 'Gilroy-ExtraBold';
+}
+
+.head .h3-faq {
+    color: #000000;
 }
 
 /*Journey section starts here*/
@@ -763,7 +767,7 @@ span.play i {
 /*community section starts here*/
 .community {
     padding: 100px 0;
-    background: #fbfbfd;
+    background: #ffffff;
 }
 
 .community .head {
@@ -942,16 +946,13 @@ p.bold {
 .sponser ul li p {
     width: calc(100% - 150px);
     flex: 0 0 calc(100% - 150px);
-    color: #333
+    color: #ffffff;
 }
 
-.sponser .head a {
-    color: #337ab7;
-}
 
 .sponser {
     padding: 90px 0;
-    background: #85fff4;
+    background: #4ba8ce;
 }
 
 .sponser .head {
@@ -1009,7 +1010,7 @@ p.bold {
 
 .cst-faq .panel-default > .panel-heading + .panel-collapse > .panel-body {
     border: 0;
-    background: #23b8aa;
+    background: #4ba8ce;
     color: #fff;
     padding-top: 0;
 }
@@ -1027,7 +1028,7 @@ p.bold {
 }
 
 .cst-faq .panel-title > a[aria-expanded="true"] {
-    background: #23b8aa;
+    background: #4ba8ce;
     color: #fff;
     padding-bottom: 10px
 }
@@ -1046,7 +1047,8 @@ p.bold {
 /*FAQ section ends here*/
 
 .cst-contact {
-    background: url(../images/Contact-background.png)no-repeat;
+    /*background: url(../images/Contact-background.png)no-repeat;*/
+    background-color: #4ba8ce;
     background-position: center center;
     background-size: cover;
     text-align: center;
